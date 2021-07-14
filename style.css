@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  body {
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#b7b7a4, #6b705c); }
+  
+  /*TOTAL BOX CONTAINING EVERYTHING*/
+  .total-box {
+    position: relative;
+    margin: 0 auto;
+    top: 10vh;
+    width: 70%;
+    height: 75vh;
+    overflow: hidden;
+  }
+  /*INTRO BOX SECTION*/
+  .introduction-box{
+    position: relative;
+    margin: 0 auto;
+    background-color: #f4f1de;
+    height: 95%;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  .image-section {
+     background-color: #f4f1de;
+     color: white;
+     height: 100%;
+     float: right;
+     width: 35%;
+     overflow: hidden;
+     margin: 0 auto;
+  }
+  
+  .actual-image {
+    height: 100%;
+    background-image:url('https://i.ibb.co/fFQYYFH/Full-Size-Render.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 98%;
+    width: 95%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .desc-section {
+    background-color: #f4f1de;
+    height: 100%;
+    width: 65%;
+    float: left;
+    font-size: 30px;
+  }
+  
+  #border {
+    background-image: linear-gradient(#b7b7a4, #6b705c);
+    background-color: white;
+    height: 98%;
+    width: 98%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .desc-section h3 {
+    position: relative;
+    top: 40%;
+    margin: 0px;
+    height: 20%;
+    text-align: center;
+    font-size: 60px;
+    color: #333333;
+  }
+  
+  .desc-section p {
+    position: relative;
+    top: 35%;
+    height: 20%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #333333;
+  }
+  
+  /*NAV BAR SECTION*/
+  
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    position: relative;
+    left: 25%;
+    float: left;
+    display: block;
+    color: #283618;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  } 
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f4f1de;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: #6b705c;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
