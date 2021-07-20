@@ -4,14 +4,26 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: Georgia, sans-serif;
     font-size: 62.5%;
     font-size: 10px; 
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
 
+.first-background {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.second-background {
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 /* ####################################### */
 /* ####################################### */
 /* ####################################### */
@@ -20,8 +32,14 @@ body {
 /* ####################################### */
 /* ####################################### */ 
 
-.star-background {
-  height: 100%;
+#section1 {
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+
+#section2 {
+  height: 200vh;
   overflow: hidden;
   background: black;
 }
@@ -591,6 +609,44 @@ stars:after {
 }
 
 
+
+/* ####################################### */
+/* ####################################### */
+/* ####################################### */
+/*              Button section             */
+/* ####################################### */
+/* ####################################### */
+/* ####################################### */
+
+.arrow {
+  box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+
+.arrow:hover {
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+  border-color: white;
+}
+
+.down-arrow-container {
+  position: relative;
+  top: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 100%;
+}
+
+
 /* ####################################### */
 /* ####################################### */
 /* ####################################### */
@@ -994,7 +1050,7 @@ font-size: 20px;
 }
 
 
-.desc-section h3 {
+.desc-section p {
   position: relative;
   top: 35%;
   margin: 0px;
@@ -1002,6 +1058,6 @@ font-size: 20px;
   text-align: center;
   font-size: 62.5%;
   font-size: 24px;
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, sans-serif;
   color: white;
 }
