@@ -460,8 +460,8 @@ stars:after {
     156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
     986px 1529px #fff, 1667px 1137px #fff;
   }
-#stars2: after {
-    content: '';
+#stars2:after {
+  content: '';
   position: absolute;
   top: 2000px;
   width: 2px;
@@ -607,23 +607,6 @@ stars:after {
 /* ####################################### */
 /* ####################################### */
 
-.arrow {
-  box-sizing: border-box;
-  height: 3vw;
-  width: 3vw;
-  border-style: solid;
-  border-color: white;
-  border-width: 0px 1px 1px 0px;
-  transform: rotate(45deg);
-  transition: border-width 150ms ease-in-out;
-}
-
-
-.arrow:hover {
-  border-bottom-width: 5px;
-  border-right-width: 5px;
-  border-color: white;
-}
 
 .down-arrow-container {
   position: relative;
