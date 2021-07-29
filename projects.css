@@ -11,7 +11,9 @@ body {
     overflow: hidden;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 .navbar-background {
   position: fixed;
@@ -37,6 +39,7 @@ body {
   justify-content: center;
   background-color: black;
   overflow: hidden;
+  flex
 }
 
 /* ####################################### */
@@ -46,7 +49,7 @@ body {
 /* ####################################### */
 /* ####################################### */
 /* ####################################### */
-.card {
+.card1 {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 210px 210px 80px;
@@ -63,9 +66,9 @@ body {
   margin: 40px;
 }
 
-.card-image {
+.card1 .card-image {
   grid-area: image;
-  background-color: blue;
+  background: url(./images/supreme.PNG);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -92,42 +95,7 @@ body {
   font-size: 28px;
 }
 
-.card-stats {
-  grid-area: stats;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #9a8c98;
-}
-
-.card-stats .stat {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px;
-  color: white;
-}
-
-.card-stats .type {
-  font-size: 11px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.card-stats .value {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.card-stats .border {
-  border-left: 1px solid rgb(172, 26, 87);
-  border-right: 1px solid rgb(172, 26, 87);
-}
-
-.card:hover {
+.card1:hover {
   transform: scale(1.2);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
@@ -156,9 +124,9 @@ body {
   margin: 40px;
 }
 
-.card-image {
+.card2 .card-image {
   grid-area: image;
-  background-color: blue;
+  background: url(./images/registration.png);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -174,50 +142,15 @@ body {
   font-size: 13px;
 }
 
-.card-text .p {
+.card-text p {
   color: grey;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 .card-text h2 {
   margin-top: 0px;
-  font-size: 28px;
-}
-
-.card-stats {
-  grid-area: stats;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #9a8c98;
-}
-
-.card-stats .stat {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px;
-  color: white;
-}
-
-.card-stats .type {
-  font-size: 11px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.card-stats .value {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.card-stats .border {
-  border-left: 1px solid rgb(172, 26, 87);
-  border-right: 1px solid rgb(172, 26, 87);
+  font-size: 25px;
 }
 
 .card2:hover {
@@ -249,9 +182,9 @@ body {
   margin: 40px;
 }
 
-.card-image {
+.card3 .card-image {
   grid-area: image;
-  background-color: blue;
+  background: url(./images/chart.png);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
